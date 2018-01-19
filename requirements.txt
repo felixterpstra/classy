@@ -1,9 +1,12 @@
 # ----------------------
 # Flask
 # ----------------------
-flask
-flask-sqlalchemy
+alembic
+Flask-Migrate
+Flask-Script
+Flask-SQLAlchemy
 psycopg2
+boto3
 
 # ----------------------
 # Testing
