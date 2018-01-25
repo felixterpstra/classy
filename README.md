@@ -17,6 +17,23 @@ AWS_SECRET_KEY=<your_secret_goes_here>
 ```
 ### Setup
 
+run psql at the command line and create a database:
+
+```
+create database classy_dev;
+```
+
+Now initialize the schema and run the migrations
+:
+```
+python manage.py db init
+python manage.py db migrate
+python manage.py db update
+```
+
+### Try an exmaple out
+
+We've provided an example of a simple binary classifier, seeking to
 
 ### Run locally
 

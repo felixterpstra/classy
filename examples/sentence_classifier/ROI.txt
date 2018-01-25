@@ -1,0 +1,437 @@
+
+
+
+McKinsey uses cookies to improve site functionality, provide you with a better browsing experience, and to enable our partners to advertise to you. Detailed information on the use of cookies on this Site, and how you can decline them, is provided in our cookie policy. By using this Site or clicking on "OK", you consent to the use of cookies.
+
+OK
+
+
+ 
+
+
+
+            Article -
+July 2015
+
+
+
+Megaprojects: The good, the bad, and the better
+
+                    By Nicklas Garemo, Stefan Matzinger, and Robert Palter
+                
+
+
+
+ 
+
+
+
+
+
+Megaprojects: The good, the bad, and the better
+
+
+Article Actions
+
+
+Share this article on LinkedIn 
+Share this article on Twitter 
+Share this article on Facebook 
+Email this article 
+
+
+
+
+Download this article 
+
+
+
+
+
+
+
+
+
+
+
+                Building big infrastructure projects is always risky, but there are ways to improve the odds of a smooth landing.
+            
+Infrastructure megaprojects are crucial to the future of cities, states, and individual livelihoods. The problem is that these projects often go off the rails, either with regard to budget or time—or both.
+However, it’s important to remember that building and maintaining infrastructure is a critical and sometimes even lifesaving undertaking. Sewage and water-supply systems, for example, keep diseases such as cholera at bay. Much of the Netherlands would be under water without the North Sea Protection Works, which guards that low-lying country’s landscape
+Big infrastructure projects can also be economically transformative. Consider the Panama Canal. It accounts for a significant share of the country’s GDP. Dubai’s international airport is the world’s busiest, accounting for 21 percent of Dubai’s employment and 27 percent of its GDP. And Hong Kong would surely grind to a halt without its clean and speedy subway system, the MTR, which has enabled the densely packed city to build beyond the downtown districts.
+All these megaprojects have worked as intended; indeed, it is almost impossible to think of these places without them. Not surprisingly, all of them are being expanded. Also not surprisingly, the canal and airport projects are both running late and well above the initial budget; even the hyperefficient MTR has run into delays with some of its projects.
+McKinsey estimates that the world needs to spend about $57 trillion on infrastructure by 2030 to enable the anticipated levels of GDP growth globally. Of that, about two-thirds will be required in developing markets, where there are rising middle classes, population growth, urbanization, and increased economic growth. These countries need infrastructure, but all too often many years will pass and the promised road, bridge, and metro projects still will not have materialized.
+
+
+Read more about Infrastructure
+
+
+Article
+New horizons for infrastructure investing
+
+
+Interview
+Infrastructure and economic development: An interview with John Rice
+
+
+Interview
+Should the Olympics be shrunk?
+
+
+
+The risks associated with megaprojects—those that cost $1 billion or more—are well documented. In one influential study, Bent Flyvbjerg, an expert in project management at Oxford’s business school, estimated that nine out of ten go over budget.1 1.Bent Flyvbjerg, “What you should know about megaprojects and why: An overview,” Project Management Journal, 2014, Volume 45, Number 2, pp. 6–19. Rail projects, for example, go over budget by an average of 44.7 percent, and their demand is overestimated by 51.4 percent. McKinsey has estimated that bridges and tunnels incur an average 35 percent cost overrun; for roads, it’s 20 percent. Given that many projects are approved with a 20 percent return on investment expected, this leaves governments to pick up the tab for the rest.
+Time overruns, too, are a perennial problem. Consider the metro system in Salvador, Brazil. Construction began in 2000, but it took more than a dozen years for the first passengers to ride it; most of the work is still unfinished. It has taken New York a decade just to begin the $3.9 billion project to rebuild the 59-year-old Tappan Zee Bridge; meanwhile, the cost of maintaining the worn-out bridge keeps increasing.
+Finally, the premise that projects need to work on two levels—in the short term for recovering financial outlays and the longer term for creating social impact—often becomes a barrier to taking action. Even projects that are needed do not get executed, especially in places where revenues from a project are unlikely to cover its cost.
+How can companies and governments do better to build megaprojects that deliver their societal benefits and do so on time and on budget? To answer that question, we consider the most important reasons that megaprojects falter, and then we suggest principles for improvement.
+Why projects go bad
+There are three main reasons for failure.
+Overoptimism and overcomplexity. In order to justify a project, sometimes costs and timelines are systematically underestimated and benefits systematically overestimated. Flyvbjerg argues that project managers competing for funding massage the data until they come under the limit of what is deemed affordable; stating the real cost, he writes, would make a project unpalatable. From the outset, such projects are on a fast track to failure.
+A common example of this comes when big projects cross state or national borders and involve a mix of private and government spending. For example, a new railway could involve three national governments, numerous local governments, different environmental and health standards, varied degrees of skills and wage expectations, and dozens of private contractors, suppliers, and end users. Just one issue can stall the process indefinitely. In one case, for example, it took two countries a decade to work out the diplomatic considerations that allowed them to build a hydroelectric dam. All too often, these complicating issues are not deeply considered or priced to the fullest before launching a project.
+One useful reality check is to compare the project under consideration to similar projects that have already been completed. Known as “reference-class forecasting,” this process addresses confirmation bias by forcing decision makers to consider cases that don’t necessarily justify the preferred course of action. For example, if a city wants to build a ten-kilometer metro line with four stations, it should look at other cities that have built similar lines to understand the true cost and time dynamics.
+
+
+
+Voices on Infrastructure, Number 3
+Read the issue
+
+
+Poor execution. Having delivered an unrealistically low project budget, the temptation is to cut corners to maintain cost assumptions and protect the (typically slim) profit margins for the engineering and construction firms that have been contracted to deliver the project. Project execution, from design and planning through construction, is riddled with problems such as incomplete design, lack of clear scope, ill-advised shortcuts, and even mathematical errors in scheduling and risk assessment. A McKinsey study of 48 troubled megaprojects showed that poor execution was responsible for cost and time overruns in 73 percent of the cases; for the rest, these were due to politics, such as new governments or laws. In part, execution is poor because many projects are so complex that what might seem like routine issues can become major headaches. For example, if steel does not arrive at the job site on time, the delay can stall the entire project. Ditto if one of the specialty trades has a problem. Higher productivity will not compensate for these shortfalls because such delays tend to ripple through the entire project system.
+Another challenge is low productivity. While the manufacturing sector has approximately doubled its productivity over the past two decades, construction productivity has remained flat or even declined. Wages, however, have continued to rise faster than inflation in many markets, resulting in higher costs for the same results.
+McKinsey studies have shown that delivering infrastructure more efficiently can reduce its whole cost by 15 percent.2 2.For more, see “Infrastructure productivity: How to save $1 trillion a year,” McKinsey Global Institute, January 2013. Up-front preparation pays for itself many times over. All told, efficiency gains in approval, engineering, procurement, and construction can generate savings of as much as 25 percent on new projects, without compromising the quality of outcomes.
+Weakness in organizational design and capabilities. Many entities involved in building megaprojects have an organizational setup in which the project director sits four or five levels down from the top leadership. The following structure is common:
+
+Layer 1: Subcontractor to contractor
+Layer 2: Contractors to construction manager or managing contractor
+Layer 3: Construction manager to owner’s representative
+Layer 4: Owner’s representative to project sponsor
+Layer 5: Project sponsor to business executive
+
+This is a problem because each layer will have a view on how time and costs can be compressed. For example, the first three layers are looking for more work and more money, while the later ones are looking to deliver on time and budget. Also, the authority to make final decisions is often remote from the action.
+Capabilities, or lack thereof, are another issue. Large projects are typically either sponsored by the government or by an entrepreneur with bold aspirations; they can take 10 to 15 years to finish. Even individuals who build large infrastructure projects for a living may execute only three or four megaprojects in a lifetime. Because each one is unique, the learning curve is steep every time, and the skills needed are scarce. All these problems are compounded by the speed at which projects get started. Starting from scratch, megaprojects may have to create organizations of several thousand people in 12 to 18 months—a significant operational and managerial challenge equivalent to creating a new start-up company.
+How to deliver on the promise of megaprojects
+Any big project carries a big opportunity for failure, but regularly going over time and over budget implies that there are systematic errors at work. And that means these problems can be identified and addressed.
+
+
+
+
+Would you like to learn more about our Infrastructure Practice?
+
+
+Typically, when projects go wrong, hindsight shows that the problems began at the outset, due to poor justification and need for the project, misalignment among stakeholders, insufficient planning, and inability to find or use the appropriate capabilities. Costs are commonly underestimated and benefits overestimated. As a result, the baseline for assessing overall project performance is wrong. The key is to first establish social and economic priorities and only then to consider what projects are best suited to deliver them. That requires developing independent and robust analyses on the true cost and benefits. Some countries are closer to achieving this ideal than others. Singapore, for instance, has a national goal for dense urban living, with public transit accounting for 75 percent of journeys. This aspiration guides how the Land Transport Authority selects transport projects. Without such rigor and oversight, you can imagine bridges to nowhere, excess power supplies, and empty roads.
+The process for selecting projects needs to be fact based and transparent to ensure accountability. South Korea shows one promising approach. In 2005, it established the Public and Private Infrastructure Investment Management Center (PIMAC) to get accurate data on costs and benefits; PIMAC does feasibility studies on public megaprojects, conducts value-for-money tests, sponsors comprehensive research on improving public investment, and evaluates projects when they are done. So far, PIMAC has rejected almost half the projects that it has reviewed. Before PIMAC, the rejection figure was 3 percent.
+Distressed projects have another thing in common: they lack adequate controls. Specifically, they do not have robust risk-analysis or risk-management protocols and do not provide timely reporting on progress relative to budgets and timelines. The data used to report on project progress are typically outdated (as they generally rely on payments to contractors rather than on actual work performed) and not aligned with the true progress of the project. In addition, baselines get adjusted time and again, and contractors and owners use different metrics to measure progress. It is problematic when there are multiple estimates of the cost and time performance of the project relative to the baseline, which means there is no common understanding of performance. This limits the partners’ ability to figure out how to accelerate project delivery and control cost overruns.
+A more sophisticated approach is to use real-time data that measures activity in the field, such as cubic meters of concrete poured or earth moved, relative to work plans and budgets. This differs from the usual approach, which is to track progress by measuring funds paid to contractors relative to budget. Measuring progress on the basis of cash flow, however, is less than ideal, because usually it takes more than 30 days to pay. That means the related data are out of date; moreover, payments to contractors may not correlate to actual construction progress. Improving project performance requires better planning and preparation in three areas.
+Do the engineering and risk analysis before starting construction. This is often stated but rarely followed, though doing so clearly improves project performance. Edward Merrow, the founder of the Independent Project Analysis consultancy and author of a book on megaprojects,3 3.Edward W. Merrow, Industrial Megaprojects: Concepts, Strategies, and Practices for Success, first edition, Hoboken, NJ: John Wiley & Sons, 2011. has shown that the best examples of project-definition work reduce both project timelines and costs by roughly 20 percent.
+Most project-development organizations or project sponsors are reluctant to spend a significant amount of money on early-stage engineering and design for three reasons. First, they often lack the funds in the early stage of a project to spend significantly on design and engineering. Second, they are eager to break ground and start construction. Finally, they worry that the design will be modified once construction is under way and thus make the expenditure on up-front design pointless.
+
+
+
+Would you like to learn more about the Global Infrastructure Initiative?
+Read the issue
+
+
+Our experience indicates that if project developers or project sponsors spend 3 to 5 percent of the capital cost of the project on early-stage engineering and design, it tends to produce far better results in on-time and on-budget delivery. This is because the design process will often raise challenges that need to be resolved before construction starts, saving time and money.
+Streamline permitting and land acquisition. It’s not unusual that it takes longer to get approvals for a project than to build it. Best practices in issuing permits involve prioritizing projects, defining clear roles and responsibilities, and establishing time limits all along the way, including on public review. Providing “one stop shop” permitting can help. By applying these approaches, England and Wales cut the time to approve power-industry infrastructure from 12 months to 9, compared with an average of four years in the rest of Europe.
+Projects can also be designed to reduce time-consuming land battles. The state of Virginia completed a plan to widen Interstate  495 in 2012, after a private design company came up with a plan that cut costs markedly and eliminated the need to remove hundreds of homes.
+Build a project team with the right mix of abilities. Without a well-resourced and qualified network of project managers, advisers, and controllers, projects will not deliver the best possible return on investment. At worst, they will fail.
+Investors and owners need to take an active role in putting together the project team. It is not enough for them to have a vague theoretical overview of how the project should work. They need to create a detailed, practical approach to deal with such likely eventualities as managing quality risks, escalating contractor’s costs, or replacing a high-tech supplier. An experienced project manager is not enough; players must assemble a team that has all the requisite skills, including legal and technical expertise, contract management, project reporting, regulatory approval, stakeholder management, and government and community relations.
+The world needs megaprojects to deliver the economic and social goods that billions of people lack and to create the economic growth that will pay for them. But a bad project has consequences that go well beyond a specific bridge, tunnel, or sewage system. Getting it right, or at least better, is good for everyone.
+
+About the author(s)
+Nicklas Garemo is a director in McKinsey’s Abu Dhabi office, Stefan Matzinger is a director in the Hong Kong office, and Robert Palter is a director in the Toronto office.
+            
+
+Article Actions
+
+
+Share this article on LinkedIn 
+Share this article on Twitter 
+Share this article on Facebook 
+Email this article 
+
+
+
+
+Download this article 
+
+
+
+
+
+
+
+
+Most Popular
+
+
+
+1.
+
+What the future of work will mean for jobs, skills, and wages
+
+Report
+                    
+                        - McKinsey Global Institute
+                    
+                
+
+
+
+
+2.
+
+The four questions to ask when serving on a nonprofit board
+
+Article
+                    
+                        - McKinsey Quarterly
+                    
+                
+
+
+
+
+3.
+
+More than a feeling: Ten design practices to deliver business value
+
+Article
+                    
+                
+
+
+
+
+4.
+
+Five Fifty: Better decisions
+
+Interactive
+                    
+                        - McKinsey Quarterly
+                    
+                
+
+
+
+
+5.
+
+What every leader needs to know about organizational management
+
+Podcast
+                    
+                
+
+
+
+
+
+
+
+ 
+
+
+
+ More on Capital Projects & Infrastructure
+
+
+
+
+Article
+                    
+                
+
+The construction productivity imperative
+
+
+July 2015 – How to build megaprojects better.
+                
+
+
+
+
+
+
+
+
+
+
+
+
+                             Article
+                             
+                         
+
+E before I: Why engagement needs to come first in planning infrastructure
+
+
+June 2015 – Consulting stakeholders before digging makes for better, cheaper projects.
+                         
+
+
+
+
+
+
+
+
+
+
+                             Interview
+                             
+                         
+
+Rethinking infrastructure: A megaproject executive’s view
+
+
+March 2013 – Fahd Al-Rasheed—CEO and managing director of Saudi Arabia’s King Abdullah Economic City megaproject, on the shores of the Red Sea—describes the scope of and vision behind the building of a new city the size of Washington, DC, for a projected two million inhabitants.
+                         
+
+
+
+
+
+
+
+
+
+Most Popular
+
+
+
+
+
+
+
+
+
+                    Report
+                    
+                     - McKinsey Global Institute
+                            
+                
+
+What the future of work will mean for jobs, skills, and wages
+
+
+                    In an era marked by rapid advances in automation and artificial intelligence, new research assesses the jobs lost and jobs gained under different scenarios through 2030.
+                
+
+
+
+
+
+                    Article
+                    
+                     - McKinsey Quarterly
+                            
+                
+
+The four questions to ask when serving on a nonprofit board
+
+
+
+
+
+
+                    Article
+                            
+                
+
+More than a feeling: Ten design practices to deliver business value
+
+
+
+
+
+
+                    Interactive
+                    
+                     - McKinsey Quarterly
+                            
+                
+
+Five Fifty: Better decisions
+
+
+
+
+
+
+                    Podcast
+                            
+                
+
+What every leader needs to know about organizational management
+
+
+
+
+
+
+                    Article
+                            
+                
+
+A CEO guide for avoiding the ten traps that derail digital transformations
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Sign in
+
+Please sign in to print or download this article.
+
+
+
+Email
+
+
+
+
+Password
+
+
+
+
+
+
+Forgot password?
+
+
+
+
+
+
+                                                Don't have a profile? Create one.
+
+
+
+Please create a profile to print or download this article.
+
+                                                Create a profile to get full access to our articles and reports, including those by McKinsey Quarterly and the McKinsey Global Institute, and to subscribe to our newsletters and email alerts.
+                                            
+
+
+Create a profile
+
+
+
+
+
+
+
+ 
