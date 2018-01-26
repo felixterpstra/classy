@@ -11,16 +11,28 @@ Shout outs to the excellent : [Flask App Template](github.com/zachwill/flask_her
 
 You'll need the following environment variables set up (assuming you want to use Postgres on Heroku here)
 ```
-DATABASE_URL:"postgresql://localhost/classy_dev"
+DATABASE_URL="postgresql://localhost/classy_dev"
 AWS_S3_ACCESS_KEY=<your_key_goes_here>
 AWS_SECRET_KEY=<your_secret_goes_here>
 ```
 ### Setup
 
-run psql at the command line and create a database:
+Setup Postgress (or any other RMDS, but we'll use postgresql from here on in as our example)
+
+run
+```
+psql
+```
+
+at the command line and create a database:
 
 ```
 create database classy_dev;
+```
+
+Now install all the python packages in the asual way:
+```
+pip install -r requirements.txt
 ```
 
 Now initialize the schema and run the migrations
@@ -28,7 +40,7 @@ Now initialize the schema and run the migrations
 ```
 python manage.py db init
 python manage.py db migrate
-python manage.py db update
+python manage.py db upgrade
 ```
 
 ### Try an exmaple out
