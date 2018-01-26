@@ -24,8 +24,10 @@ from models import User, ClassyText, ClassyLabel, ClassyJob, ClassyTrainingItem
 
 @app.route('/')
 def home():
+    classy_texts = db.session.query(ClassyText).all()
+
     """Render website's home page."""
-    return render_template('home.html')
+    return render_template('home.html', classy_texts=classy_texts)
 
 
 @app.route('/about/')
