@@ -24,10 +24,18 @@ from models import User, ClassyText, ClassyLabel, ClassyJob, ClassyTrainingItem
 
 @app.route('/')
 def home():
-    classy_texts = db.session.query(ClassyText).all()
+    classy_jobs = db.session.query(ClassyJob).all()
 
     """Render website's home page."""
-    return render_template('home.html', classy_texts=classy_texts)
+    return render_template('home.html', classy_jobs=classy_jobs)
+
+@app.route('/classy-text/<int:job_id>')
+def classy_text(job_id):
+    classy_labels = db.session.query(ClassyLabel).filter(ClassyLabel.classy_job_id == job_id)
+    #classy_item = db.session.query(ClassyJob).all()
+
+    """Render website's home page."""
+    return render_template('classy-text.html', classy_labels=classy_labels)
 
 
 @app.route('/about/')

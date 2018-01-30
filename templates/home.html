@@ -7,7 +7,7 @@
 
 {% block main %}
   <h1>Classy yo!</h1>
-  {% for text in classy_texts %}
-    <h3>{{ text.classification_text }}</h3>
+  {% for job in classy_jobs %}
+    <a href="classy-text/{{job.id}}">{{ job.name }}</href>
   {% endfor %}
 {% endblock %}

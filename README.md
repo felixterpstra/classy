@@ -12,8 +12,6 @@ Shout outs to the excellent : [Flask App Template](github.com/zachwill/flask_her
 You'll need the following environment variables set up (assuming you want to use Postgres on Heroku here)
 ```
 DATABASE_URL="postgresql://localhost/classy_dev"
-AWS_S3_ACCESS_KEY=<your_key_goes_here>
-AWS_SECRET_KEY=<your_secret_goes_here>
 ```
 ### Setup
 
@@ -49,7 +47,16 @@ We've provided an example of a simple binary classifier, seeking to
 
 ### Run locally
 
+```
+FLASK_APP=app.py FLASK_DEBUG=1 python -m flask run
+```
 
+or
+
+```
+heroku local
+```
+as you prefer.
 
 ### Other potential solutions:
 - https://prodi.gy looks pretty good actually, but is paid for. Worth a look though.
@@ -61,4 +68,4 @@ Instructions here
 - Add user authentication
 - Add google drive integration
 - Add dropbox integration
-- Add support for different classification types (Image)
+- Add support for different classification types (Image etc)
