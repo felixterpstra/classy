@@ -13,7 +13,7 @@ spacy
 # Testing
 # ----------------------
 mock
-
+livereload
 
 # ----------------------
 # Production Server

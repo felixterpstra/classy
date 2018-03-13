@@ -9,13 +9,18 @@ This file creates your application.
 import os
 from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
+from livereload import Server, shell
 
 app = Flask(__name__)
 
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'this_should_be_configured')
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ['DATABASE_URL']
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ['CLASSY_DATABASE_URL']
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
+
+# remember to use DEBUG mode for templates auto reload
+# https://github.com/lepture/python-livereload/issues/144
+app.debug = True
 
 from models import User, ClassyText, ClassyLabel, ClassyJob, ClassyTrainingItem
 ###
@@ -73,4 +78,7 @@ def page_not_found(error):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    server = Server(app.wsgi_app)
+    server.watch('/Views/*')
+    # server.watch
+    server.serve()

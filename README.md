@@ -11,11 +11,11 @@ Shout outs to the excellent : [Flask App Template](github.com/zachwill/flask_her
 
 You'll need the following environment variables set up (assuming you want to use Postgres on Heroku here)
 ```
-DATABASE_URL="postgresql://localhost/classy_dev"
+export CLASSY_DATABASE_URL="postgresql://localhost/classy_dev"
 ```
 ### Setup
 
-Setup Postgress (or any other RMDS, but we'll use postgresql from here on in as our example)
+Setup Postgres (or any other RMDS, but we'll use postgresql from here on in as our example)
 
 run
 ```
