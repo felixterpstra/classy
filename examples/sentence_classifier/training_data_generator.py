@@ -2,17 +2,17 @@ from app import db, User, ClassyJob, ClassyText, ClassyLabel
 import spacy
 import datetime
 
-sent_class_count = db.session.query(ClassyJob.name).filter(ClassyJob.name == 'Sentance Classification Job').count()
+sent_class_count = db.session.query(ClassyJob.name).filter(ClassyJob.name == 'Sentence Classification Job').count()
 if sent_class_count > 0:
-    print("Already a job named: 'Sentance Classification Job' ")
+    print("Already a job named: 'Sentence Classification Job' ")
     raise SystemExit
 
-sent_job = ClassyJob(name='Sentance Classification Job', s3bucket='')
+sent_job = ClassyJob(name='Sentence Classification Job', s3bucket='')
 db.session.add(sent_job)
 db.session.commit()
 
-sent = ClassyLabel(name='Sentance', classy_job_id=sent_job.id)
-not_sent = ClassyLabel(name='NOT Sentance', classy_job_id=sent_job.id)
+sent = ClassyLabel(name='Sentence', classy_job_id=sent_job.id)
+not_sent = ClassyLabel(name='NOT Sentence', classy_job_id=sent_job.id)
 ignore = ClassyLabel(name='Ignore', classy_job_id=sent_job.id)
 db.session.add(sent)
 db.session.add(not_sent)

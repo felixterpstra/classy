@@ -4,10 +4,16 @@
 {% block js %}
 {% endblock %}
 
-
 {% block main %}
-  <h1>Read the text and csssssssshose the button that classifies it</h1>
-  {% for label in classy_labels %}
-    <button type="button" class="btn btn-primary">{{label.name}}</button>
-  {% endfor %}
+  <div class="textView">
+    <div class="main">
+      <div class="textContainer">Detailed information on the use of cookies on this Site, and how you can decline them, is provided in our cookie policy.</div>
+
+      <div class="classLabelContainer">
+        {% for label in classy_labels %}
+          <button type="button" class="classButton">{{label.name}}</button>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 {% endblock %}

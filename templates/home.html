@@ -1,13 +1,17 @@
 {% extends "base.html" %}
 
-
 {% block js %}
 {% endblock %}
 
-
 {% block main %}
-  <h1>Classyuuuppp yo!</h1>
-  {% for job in classy_jobs %}
-    <a href="classy-text/{{job.id}}">{{ job.name }}</href>
-  {% endfor %}
+  <div class="home">
+    <div class="jobCardGrid">
+      {% for job in classy_jobs %}
+        <a class="jobCard" href="classy-text/{{job.id}}">
+          <div class="jobCardTitle">{{ job.name }}</div>
+          <div class="jobCardSubtitle">36 texts</div>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
 {% endblock %}
