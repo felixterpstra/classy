@@ -6,7 +6,7 @@ Werkzeug Documentation:  http://werkzeug.pocoo.org/documentation/
 This file creates your application.
 """
 
-import os
+import os, sys
 from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 from livereload import Server, shell
@@ -34,13 +34,13 @@ def home():
     """Render website's home page."""
     return render_template('home.html', classy_jobs=classy_jobs)
 
-@app.route('/classy-text/<int:job_id>')
+@app.route('/classy-text/<int:job_id>', methods=['GET','POST'])
 def classy_text(job_id):
     classy_labels = db.session.query(ClassyLabel).filter(ClassyLabel.classy_job_id == job_id)
-    #classy_item = db.session.query(ClassyJob).all()
-
-    """Render website's home page."""
-    return render_template('classy-text.html', classy_labels=classy_labels)
+    #Make sure this is filtered by not nulls
+    classy_text = db.session.query(ClassyText).filter(ClassyText.classy_job_id == job_id).first()
+    ##print(classy_text.classification_text, file=sys.stderr)
+    return render_template('classy-text.html', classy_labels=classy_labels, classy_text=classy_text)
 
 
 @app.route('/about/')

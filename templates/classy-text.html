@@ -7,13 +7,15 @@
 {% block main %}
   <div class="textView">
     <div class="main">
-      <div class="textContainer">Detailed information on the use of cookies on this Site, and how you can decline them, is provided in our cookie policy.</div>
+        <form action="" method="post">
+            <div class="textContainer">{{classy_text.classification_text}}</div>
 
-      <div class="classLabelContainer">
-        {% for label in classy_labels %}
-          <button type="button" class="classButton">{{label.name}}</button>
-        {% endfor %}
-      </div>
+            <div class="classLabelContainer">
+                {% for label in classy_labels %}
+                <button type="submit" class="classButton">{{label.name}}</button>
+                {% endfor %}
+            </div>
+        </form>
     </div>
   </div>
 {% endblock %}
