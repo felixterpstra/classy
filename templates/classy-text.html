@@ -6,17 +6,28 @@
 
 {% block main %}
   <div class="textView">
+    <div class="textHeader">
+      <div class="textHeaderTitle">{{classy_job.name}}</div>
+      <div class="textHeaderSubtitle">372 of 507</div>
+      <div class="progressBar">
+        <div class="progressBarActive"></div>
+      </div>
+    </div>
     <div class="main">
-        <form action="" method="post" name="frmClassification" >
-            <input type="hidden" name="classy_text_id" value="{{classy_text.id}}" />
-            <div class="textContainer">{{classy_text.classification_text}}</div>
+      <form action="" method="post" name="frmClassification" >
+        <input type="hidden" name="classy_text_id" value="{{classy_text.id}}" />
+        <div class="textContainer">{{classy_text.classification_text}}</div>
 
-            <div class="classLabelContainer">
-                {% for label in classy_labels %}
-                <button type="submit" class="classButton" name="btnLabel" value={{label.id}}>{{label.name}}</button>
-                {% endfor %}
-            </div>
-        </form>
+        <div class="classLabelContainer">
+          {% for label in classy_labels %}
+            <button type="submit" class="classButton" name="btnLabel" value={{label.id}}>{{label.name}}</button>
+          {% endfor %}
+        </div>
+        <div class="ignoreButton">
+          Skip This Item
+          <div class="ignoreButtonIcon"></div>
+        </div>
+      </form>
     </div>
   </div>
 {% endblock %}

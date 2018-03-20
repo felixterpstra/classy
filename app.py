@@ -47,7 +47,7 @@ def classy_text(job_id):
         db.session.commit()
 
     classy_labels = db.session.query(ClassyLabel).filter(ClassyLabel.classy_job_id == job_id)
-    
+
     sub_query = db.session.query(ClassyTrainingItem.classy_text_id).\
         filter(ClassyTrainingItem.user_id == user_id)
 
@@ -55,8 +55,10 @@ def classy_text(job_id):
         filter(ClassyText.id.notin_(sub_query)).\
         filter(ClassyText.classy_job_id == job_id).first()
 
+    classy_job = db.session.query(ClassyJob).get(job_id)
+
     ##print(classy_text.classification_text, file=sys.stderr)
-    return render_template('classy-text.html', classy_labels=classy_labels, classy_text=classy_text)
+    return render_template('classy-text.html', classy_job=classy_job, classy_labels=classy_labels, classy_text=classy_text)
 
 
 @app.route('/about/')

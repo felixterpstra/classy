@@ -5,6 +5,10 @@
 
 {% block main %}
   <div class="home">
+    <div class="welcome">
+      <div class="welcomeTitle">Welcome to Classy</div>
+      <div class="welcomeSubtitle">Choose a job to work on or create a new one</div>
+    </div>
     <div class="jobCardGrid">
       {% for job in classy_jobs %}
         <a class="jobCard" href="classy-text/{{job.id}}">
