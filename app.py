@@ -36,9 +36,25 @@ def home():
 
 @app.route('/classy-text/<int:job_id>', methods=['GET','POST'])
 def classy_text(job_id):
+    #hard coded user_id for now, will fill in later
+    user_id = 17
+
+    if request.method == 'POST':
+        label_id = request.form.get('btnLabel')
+        classy_text_id = request.form.get('classy_text_id')
+        training_item = ClassyTrainingItem(classy_text_id=classy_text_id, user_id=user_id, classy_label_id=label_id)
+        db.session.add(training_item)
+        db.session.commit()
+
     classy_labels = db.session.query(ClassyLabel).filter(ClassyLabel.classy_job_id == job_id)
-    #Make sure this is filtered by not nulls
-    classy_text = db.session.query(ClassyText).filter(ClassyText.classy_job_id == job_id).first()
+    
+    sub_query = db.session.query(ClassyTrainingItem.classy_text_id).\
+        filter(ClassyTrainingItem.user_id == user_id)
+
+    classy_text = db.session.query(ClassyText).\
+        filter(ClassyText.id.notin_(sub_query)).\
+        filter(ClassyText.classy_job_id == job_id).first()
+
     ##print(classy_text.classification_text, file=sys.stderr)
     return render_template('classy-text.html', classy_labels=classy_labels, classy_text=classy_text)
 

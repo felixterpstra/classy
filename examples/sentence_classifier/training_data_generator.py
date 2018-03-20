@@ -13,10 +13,8 @@ db.session.commit()
 
 sent = ClassyLabel(name='Sentence', classy_job_id=sent_job.id)
 not_sent = ClassyLabel(name='NOT Sentence', classy_job_id=sent_job.id)
-ignore = ClassyLabel(name='Ignore', classy_job_id=sent_job.id)
 db.session.add(sent)
 db.session.add(not_sent)
-db.session.add(ignore)
 db.session.commit()
 
 print("Loading texts...")

@@ -7,12 +7,13 @@
 {% block main %}
   <div class="textView">
     <div class="main">
-        <form action="" method="post">
+        <form action="" method="post" name="frmClassification" >
+            <input type="hidden" name="classy_text_id" value="{{classy_text.id}}" />
             <div class="textContainer">{{classy_text.classification_text}}</div>
 
             <div class="classLabelContainer">
                 {% for label in classy_labels %}
-                <button type="submit" class="classButton">{{label.name}}</button>
+                <button type="submit" class="classButton" name="btnLabel" value={{label.id}}>{{label.name}}</button>
                 {% endfor %}
             </div>
         </form>
